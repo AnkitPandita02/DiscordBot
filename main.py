@@ -1,5 +1,3 @@
-# id: 1171758207220318238
-# key : 8eb0d866c8aa3df9934fe6560c839d4e693b570d7bde17b4177ecef0dffd0c9d
 import os
 
 import discord
@@ -9,9 +7,9 @@ import openai
 #   chat = f.read()
 chat = ""
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv(" your_OPENAI_API_KEY")
 
-token = os.environ['SECRET_KEY']
+token = os.environ['YOUR_SECRET_KEY\TOKEN FROM DISCORD']
 
 
 class MyClient(discord.Client):
